@@ -1,0 +1,23 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: burlywood;
+}
+h3{
+    background-color: red;
+}
+#para {
+    background-color: blueviolet;
+}
+#main{
+    color: white;
+    background-color: green
+}
+.group{
+background-color: red;
+}
+.container{
+background-color: cadetblue;
+}
+h1,p ,button, .para {
+border: 8px solid red;
+}
