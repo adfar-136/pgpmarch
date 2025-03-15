@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 3px solid;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Html Forms</h1>
+    <form onsubmit="alert('adfar')">
+       <div>
+        <label for="username">Username: </label>
+        <input id="username" type="text" name="username" placeholder="Enter Username" minlength ="7" value="Adfar" > 
+       </div> <br> <br>
+       <!-- <textarea name="" id="" rows="10" cols="30"></textarea> -->
+       <select name="skills" id="">
+        <option value="">Select any skill</option>
+         <option value="html" selected>HTML</option>
+         <option value="css">CSS</option>
+         <option value="js">JS</option>
+         <option value="react">React</option>
+       </select>
+       <br>
+       <fieldset>
+        <legend>Fathers Details</legend>
+        <input type="text" placeholder="Enter  name" >
+        <input type="text" placeholder="Enter age" >
+        <input type="text" placeholder="Enter Marks nme" >
+       </fieldset>
+       <fieldset>
+        <legend>Mothers Details</legend>
+        <input type="text" placeholder="Enter name" >
+        <input type="text" placeholder="Enter age" >
+        <input type="text" placeholder="Enter Marks nme" >
+       </fieldset>
+       <input list="countries">
+       <datalist id="countries">
+         <option value="India">
+         <option value="Pakistan">
+         <option value="Bangadesh">
+         <option value="Srilanka">
+       </datalist>
+       <br>
+       <br>
+        <div>
+            <label for="email">email: </label>
+            <input id="email" type="email" name="email" placeholder="Enter Username" disabled>
+        </div>
+        <div>
+            <label for="pass">Password: </label>
+            <input id="pass" type="password" >
+        </div>  
+       fvfeferfffv <input type="text">
+        <div>
+            <label for="pass">Age: </label>
+            <input id="pass" type="number" min="0" max="100">
+        </div>  
+        <div>
+            <label for="pass">DOB: </label>
+            <input id="pass" type="date" >
+        </div> 
+        <div>
+            <label for="pass">Phone: </label>
+            <input id="pass" type="tel" >
+        </div>  
+        <div>
+            <label for="pass">DOB: </label>
+            <input id="pass" type="color" >
+        </div> 
+        <div>
+            <label for="">Gender :</label>
+            Male<input type="radio" name="gender" value="M"> 
+            Female<input type="radio" name="gender" value="F"> 
+            Other<input type="radio"  name="gender" value="O"> 
+        </div>
+        <div>
+            <label>Select your skills :</label>
+           HTML <input type="checkbox" value="HTML" name="skill" checked>
+            CSS<input type="checkbox" value="CSS" name="skill">
+            JS<input type="checkbox" value="JS" name="skill">
+            REACT<input type="checkbox" value="REACT" name="skill">
+            Node<input type="checkbox" value="node" name="skill">
+        </div>
+        <input type="range">
+        <input type="file">
+        <input type="reset">
+        <br><br>
+        <input type="button" value="Submit">
+        <input type="submit" value="Regiister">
+    </form>
+</body>
+</html>
