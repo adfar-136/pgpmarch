@@ -12,29 +12,47 @@
         display: grid;
         row-gap: 20px;
         column-gap: 40px;
-        grid-template-columns:100px 150px 190px;
-        grid-template-rows: 200px 50px 125px;
+        grid-template-columns:auto auto auto;
+        grid-template-rows: auto auto auto;
+        padding: 20px;
        /* align-items: start;
         justify-content: space-around;*/
-
-
       }
       .container > div {
         background-color: burlywood;
       }
+      .item1{
+        
+         grid-column: 1/span 1;
+        
+         grid-row:1/span 3;
+         background-color: green;
+      }
+      .item2{
+       
+        grid-area: 1/2/2/4;
+        background-color: green;
+     }
+     .item8{
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start:2 ;
+      grid-row-end: 4;
+      background-color: green;
+   }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
-        <div class="item">H</div>
-        <div class="item">I</div>
+        <div class="item1">A</div>
+        <div class="item2">B</div>
+        <div class="item3">C</div>
+        <div class="item4">D</div>
+        <div class="item5">E</div>
+        <div class="item6">F</div>
+        <div class="item7">G</div>
+        <div class="item8">H</div>
+
     </div>
 </body>
 </html>
