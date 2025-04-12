@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+
+        }
+        .main{
+
+        }
+        #para{
+
+        }
+        div p > .main + h1 ~ p{
+
+        }
+        div p:nth-child(even){
+
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Awwdfar Rasheed</h1>
+    <h1 class="heading">Adfar Rasheed</h1>
+    <h1 class="heading">Adfar Rasheed</h1>
+    <h1 class="heading">Adfar Rasheed</h1>
+    <div>
+        <h1 class="heading">Adfar Rasheed</h1>
+    <p class="heading">Pddara</p>
+    <h3 id="para">gvdcvgd</h3>
+    <h2 class="heading">Heading 2</h2>
+    </div>
+    <button onclick="fun()">Change</button>
+    <p>fghh</p>
+    <form>
+        <input type="text" name="username">
+        <input type="text" name="email">
+    </form>
+    <script>
+        let ele =  document.querySelectorAll("div p")
+       console.log(ele);
+       /* --  let ele =  document.querySelector("div p")
+       console.log(ele);
+       let ele = document.getElementsByName("username")
+        ele[0].style.backgroundColor="red"
+        let ele = document.getElementsByTagName("div")
+        console.log(ele);
+       const ele = document.getElementsByClassName("heading")
+        console.log(ele);
+        function fun(){
+           for(let i of ele){
+            console.log(i);
+           }
+        } --*/
+    </script>
+</body>
+</html>
