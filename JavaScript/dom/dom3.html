@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Adfar Rasheed</h1>
+    <button onmouseleave="fun()">Action</button>
+    <form>
+        <input type="text" onkeyup="fun()" placeholder="Enter name">
+    </form> -->
+    <input type="text" name="uname" onkeydown="fun(event)" onfocus="funn()" onblur="funnn()">
+    <ul id="list">
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+        <h1>fuwefg</h1>
+    </ul>
+    <script>
+      function funn(){
+           document.getElementsByName("uname")[0].style.padding="20px"
+       }
+       function funnn(){
+        document.getElementsByName("uname")[0].style.padding="0px"
+    }
+        document.getElementById("list").addEventListener("click",function(e){
+            console.log(e.target.textContent);
+        })
+        /*--- 
+         function fun(event){
+             console.log(event);
+        }
+        function fun(){
+            document.getElementsByTagName("h1")[0].style.backgroundColor="red"
+        } */
+    </script>
+</body>
+</html>
